@@ -7,7 +7,7 @@ resources:
     type: Cloud.vSphere.Machine
     properties:
       image: image
-      cpuCount: 2
+      cpuCount: 3
       totalMemoryMB: 1024
       awaitIp: false
       tags:

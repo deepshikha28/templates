@@ -13,4 +13,4 @@ resources:
     properties:
       image: ubuntu
       flavor: medium
-      awitIp: false
+      awitIp: true

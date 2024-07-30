@@ -1,0 +1,12 @@
+name: testBlueprint
+version: v-1
+description: Testing Cloud Agnostic
+formatVersion: 1
+inputs: {}
+resources:
+  Cloud_Machine_1:
+    type: Cloud.Machine
+    properties:
+      image: ubuntu
+      flavor: medium
+      awitIp: false

@@ -9,6 +9,6 @@ resources:
       image: image
       cpuCount: 3
       totalMemoryMB: 1024
-      awaitIp: false
+      awaitIp: true
       tags:
         - key: pri

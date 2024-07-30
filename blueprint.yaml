@@ -1,6 +1,6 @@
 name: testBlueprintOutsideFolder
-version: v3
-description: Testing Cloud Agnostic
+version: v4
+description: Updated from Git v4
 formatVersion: 1
 inputs: {}
 resources:

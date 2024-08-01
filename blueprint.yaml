@@ -6,10 +6,6 @@ inputs: {}
 resources:
   Cloud_Machine_1:
     type: Cloud.Machine
-    metadata:
-      layoutPosition:
-        - 1
-        - 1
     properties:
       image: ubuntu
       flavor: medium

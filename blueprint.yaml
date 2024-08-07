@@ -1,6 +1,6 @@
 name: testBlueprintOutsideFolder
-version: v22
-description: Updated from github v22
+version: gh-1
+description: Updated from github gh-1
 formatVersion: 1
 inputs: {}
 resources:

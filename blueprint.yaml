@@ -1,6 +1,6 @@
 name: testBlueprintOutsideFolder
-version: v-15
-description: Updated from vra v-15
+version: v-17
+description: Updated from github v-17
 formatVersion: 1
 inputs: {}
 resources:

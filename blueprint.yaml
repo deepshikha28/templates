@@ -4,13 +4,22 @@ description: Updated from github v-18
 formatVersion: 1
 inputs: {}
 resources:
-  Cloud_Machine_1:
-    type: Cloud.Machine
-    metadata:
-      layoutPosition:
-        - 0
-        - 0
+  CCI_Supervisor_Namespace_1:
+    type: CCI.Supervisor.Namespace
     properties:
-      image: ubuntu
-      flavor: medium
-      awitIp: false
+      name: '1'
+      existing: true
+  Virtual_Machine_1:
+    type: CCI.Supervisor.Resource
+    properties:
+      context: ${resource.CCI_Supervisor_Namespace_1.id}
+      manifest:
+        apiVersion: vmoperator.vmware.com/v1alpha3
+        kind: VirtualMachine
+        metadata:
+          name: virtual-machine-1-${env.shortDeploymentId}
+        spec:
+          className: '2'
+          imageName: '3'
+          powerState: PoweredOn
+          storageClass: '4'
